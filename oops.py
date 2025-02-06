@@ -35,3 +35,6 @@ print(my_car.specs())
 
 #encapsulation is the process of restricting access to methods and variables
 #polymorphism is the process of having many forms
+
+
+#what is a function in python? a function is a block of code that is executed when it is called. How is it called? by using the name of the function what is the syntax?  
