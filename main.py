@@ -1,14 +1,15 @@
 import IOT
+import ML
 import random
 
-Transmission = IOT.transmission()
+Transmissions = IOT.Transmission()
 
-Transmission.GPS="1.1.1.1"
-Transmission.Bus_id="VJA4045"
-Transmission.Headcount= random.randint(1,100)
-Transmission.supabase_KEY="hxapasboisefbasrgsg"
-Transmission.supabase_URL="dasdgkasgb.supabase.co"
+Transmissions.GPS="1.1.1.1"
+Transmissions.Bus_id="VJA4045"
+Transmissions.Headcount= random.randint(1,100)
+Transmissions.supabase_KEY="hxapasboisefbasrgsg"
+Transmissions.supabase_URL="dasdgkasgb.supabase.co"
 
-print(Transmission.supabase_KEY)
-print(Transmission.supabase_URL)
-print(Transmission.GPS + Transmission.Bus_id + str(Transmission.Headcount))
+print(Transmissions.supabase_KEY)
+print(Transmissions.supabase_URL)
+print(Transmissions.GPS + Transmissions.Bus_id + str(Transmissions.Headcount))

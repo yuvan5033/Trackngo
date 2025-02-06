@@ -1,3 +1,3 @@
-from .IOT import transmission
+from .iot import Transmission
 
 print("hello")
